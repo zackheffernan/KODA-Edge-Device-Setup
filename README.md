@@ -119,9 +119,13 @@ We'll be using the PuTTY terminal to send commands to the Raspberry Pi via SSH (
    ```
    
    Save the changes by pressing **Ctrl-X**,followed by **y**, followed by **Enter**.
-   *t this point only the default user **nymea** will have access to this folder.*
+   *At this point only the default user **nymea** will have access to this folder.*
    
 5. Next we can add all the users that we want to be able to read, write, and share the folder.
+
+   By default, the new user is granted the same permissions as the default user. The config file can be changed to reflect varying permissions for different users if need be. For    now, let's just assume every new user has full access.
+   
+   
  
    
    
